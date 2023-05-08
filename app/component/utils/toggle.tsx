@@ -1,4 +1,5 @@
-
+import Link from "next/link"
+import {VscMail} from "react-icons/vsc";
 type ToggleProps = {
   downloadResume:()=>void
 }
@@ -12,11 +13,12 @@ export default function Toggle({downloadResume}:ToggleProps){
         >
           Download Resume
         </button>
+
+
         <button 
-        className="bg-[#F49F37] text-md text-white py-2 px-4 rounded-lg"
-        onClick={downloadResume}
-        >
-          Contact Me
+        className="bg-[#F49F37] text-md text-white py-2 px-4 rounded-lg">
+          <Link href={'mailto:davidisaacomokafe@gmail.com'}><li className='flex  gap-2  items-center text-sm'>
+            <VscMail className='text-[#F49F37] text-2xl'/>Contact Me</li></Link> 
         </button>
       </div>
     </div>
