@@ -17,16 +17,12 @@ export default function Hero() {
   return (
     // <div className={`bg-[#5e4154] ${roboto.className} h-screen w-full m-0 lg:px-24 `}>
     <section
-      className={`sticky bg-[#F6F0F4] ${roboto.className} top-0 mx-auto  h-screen max-w-[1350px] items-center justify-between lg:px-24`}
-    >
+      className={`sticky bg-[#F6F0F4] ${roboto.className} top-0 mx-auto  h-screen max-w-[98%] items-center justify-between lg:px-24`}>
       <div className=" h-full w-full justify-between items-center  lg:flex ">
-        <div
-          id="boi"
-          className="flex h-[50%] w-full flex-col items-center justify-center lg:mt-10  lg:px-16 "
-        >
+        <div id="boi" className="flex h-[50%] w-full flex-col items-center justify-center lg:mt-10  lg:px-16 ">
           <div className="bg-gradient-to-r from-[#2B2620]  to-[#F49F37] bg-clip-text  ">
          
-            <h1 className="text-2xl font-bold text-[#2B2620] lg:text-6xl text-transparent">
+            <h1 className="text-3xl font-bold text-[#2B2620] lg:text-6xl text-transparent">
               Frontend Next.Js Developer
             </h1>
           </div>
@@ -68,10 +64,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div
-          id="image"
-          className="flex h-[50%] w-[100%] items-center justify-center md:w-full transition-all duration-500 "
-        >
+        <div id="image" className="flex h-[50%] w-[100%] items-center justify-center md:w-full transition-all duration-500 ">
           <Image
             className="rounded-full"
             alt="profile pix"

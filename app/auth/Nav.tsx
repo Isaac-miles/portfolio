@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link';
 import { Roboto } from 'next/font/google'
 import { Inter } from 'next/font/google'
 
@@ -18,19 +18,19 @@ const roboto = Roboto({
 export default function Nav() {
   return (
     // <div className='fixed flex justify-around bg-black/50 w-full h-15 z-20 '>
-    <div className={`${inter.className} hidden lg:flex justify-around bg-[#2B2620] w-full h-15 md:flex`}> 
-
+    <div className={`${inter.className} flex justify-around bg-[#2B2620] w-full -mt-4 `}> 
+<a href=''></a>
       <div id='social' className='flex items-center'>
         <ul className='flex gap-4 m-2 text-white'>
-        <li><BsStackOverflow className='text-[#F49F37]'/></li>
-        <li><FaLinkedinIn className='text-[#F49F37]'/></li>
-        <li><FaGithub className='text-[#F49F37]'/></li>
+        <li><BsStackOverflow className='text-[#F49F37] text-2xl'/></li>
+        <Link href={'https://linkedin.com/in/isaac-o-david-68826b206'} target='_blank'><li><FaLinkedinIn className='text-[#F49F37] text-2xl'/></li></Link>
+        <Link href={'https://github.com/Isaac-miles?tab=repositories'} target='_blank'><li><FaGithub className='text-[#F49F37] text-2xl'/></li></Link>
         </ul>
       </div>
       <div id='info' className='flex items-center'>
         <ul className='flex gap-8 m-2 text-white'>
-          <li className='flex  gap-2  items-center text-sm'><VscMail className='text-[#F49F37]'/>info@gmail.com</li>
-          <li className='flex  gap-2  items-center text-sm'><VscCallIncoming className='text-[#F49F37]'/>7067310999</li>
+        <Link href={'mailto:davidisaacomokafe@gmail.com'}><li className='flex  gap-2  items-center text-sm'><VscMail className='text-[#F49F37] text-2xl'/>davidisaacomokafe@gmail.com</li></Link> 
+         <Link href="tel:7067310999"> <li className='flex  gap-2  items-center text-sm'><VscCallIncoming className='text-[#F49F37] text-2xl'/>7067310999</li></Link>
           {/* <li className='flex  gap-2  items-center text-sm'><VscMail className='text-[#F49F37]'/>info@gmail.com</li>
           <li className='flex  gap-2  items-center text-sm'><VscCallIncoming className='text-[#F49F37]'/>81838343</li> */}
         </ul>
