@@ -18,7 +18,7 @@ const [toggle, setToggle] = useState(false)
   setToggle(true)
  }
  const downloadHandler =()=>{
-  saveAs('pdf/DavidIsaacOmokafe.CV.pdf')
+  saveAs('pdf/DavidIsaac.pdf')
  }
   return (
     <div className={`sticky z-30 bg-[#F6F0F4] ${roboto.className}  top-0 flex justify-end lg:justify-between w-full  border-b-2 m-0`}>
