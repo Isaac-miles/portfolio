@@ -67,7 +67,7 @@ export default function Hero() {
        </div>
         </div>
 
-        <div id="image" className="flex h-[50%] w-[100%] items-center justify-center md:w-full transition-all duration-500 ">
+        <div id="image" className="flex h-[50%] w-[100%] items-baseline justify-center lg:items-center md:items-center md:w-full transition-all duration-500 ">
           <Image
             className="rounded-full"
             alt="profile pix"
