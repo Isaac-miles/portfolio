@@ -41,7 +41,7 @@ const [toggle, setToggle] = useState(false)
               <button type="button" className='p-1 mr-1 
               rounded-md bg-gradient-to-r from-[#f1d6b4] to-[#F49F37] 
               hover:from-pink-500 hover:to-yellow-500 text-[[#2B2620]]'
-              onClick={()=>saveAs('pdf/DavidIsaacOmokafe.CV.pdf')}>Download Resume</button>
+              onClick={()=>saveAs('pdf/DavidIsaac.pdf')}>Download Resume</button>
             </div>
         </div>
           {!toggle && ( <div  className='lg:hidden  md:hidden m-2 w-[44px]' onClick={()=>{setToggle(true)}}>
