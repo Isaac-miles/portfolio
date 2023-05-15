@@ -44,12 +44,12 @@ const [toggle, setToggle] = useState(false)
               onClick={()=>saveAs('pdf/DavidIsaacOmokafe.CV.pdf')}>Download Resume</button>
             </div>
         </div>
-          {!toggle && ( <div  className='lg:hidden  md:hidden m-2 ' onClick={()=>{setToggle(true)}}>
+          {!toggle && ( <div  className='lg:hidden  md:hidden m-2 w-[44px]' onClick={()=>{setToggle(true)}}>
               <button type="button" className='p-1  rounded-sm bg-gradient-to-r from-[#f1d6b4] to-[#F49F37]'>
                 <HiOutlineBars3 className='text-4xl w-full text-[#2B2620]'/></button>
             </div>)}
 
-           {toggle && (<div  className='lg:hidden  md:hidden m-2  z-30'  onClick={()=>{setToggle(false)}}>
+           {toggle && (<div  className='lg:hidden  md:hidden m-2  z-30 w-[44px]'  onClick={()=>{setToggle(false)}}>
               <button type="button" className='p-1  rounded-sm bg-gradient-to-r from-[#f1d6b4] to-[#F49F37]'>
                 <HiOutlineXMark className='text-4xl w-full text-[#2B2620]'/></button>
             </div>)}
