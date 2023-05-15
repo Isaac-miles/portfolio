@@ -8,11 +8,10 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function AboutMe() {
   return (
-    // <div className='flex justify-between bg-black/50 w-full h-20 '>
     <section id='Portfolio' className={`${inter.className}  w-full h-96 bg-[url('/works.png')] `}>
     <div className="flex rounded-md text-center w-full h-full bg-black/50 " >
       <div className='flex flex-col w-full lg:flex md:flex-row  justify-center gap-1 p-1 '>
-      {/* <h1 className='text-[#2B2620] font-semibold uppercase m-auto text-center  text-xl '>Recent Works</h1> */}
+     
         <div id='boi' className="w-full h-full  border-[#F6F0F4] border-[1px]">
        
           <div className="flex flex-col justify-center items-center rounded-md text-center w-full h-full bg-black/50 " >
@@ -22,7 +21,6 @@ export default function AboutMe() {
           <button className='border-[1px] border-[#F6F0F4] p-3 m-4 text-white hover:bg-black'>Preview</button>
           </Link>
           </div>
-
         </div>
  
         <div id='boi' className="w-full h-full border-[#F6F0F4] border-[1px]">
