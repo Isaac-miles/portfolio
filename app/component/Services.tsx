@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function AboutMe() {
   return (
     // <div className='flex justify-between bg-black/50 w-full h-20 '>
-    <section id='service' className={` ${inter.className}  w-full lg:px-24 bg-white p-4 `}>
+    <section id='service' className={` ${inter.className}  w-full lg:px-24 bg-white p-4  snap-start`}>
       <h1 className='text-[#2B2620] font-semibold uppercase m-auto text-center  text-xl '>Services</h1>
       <div className='flex flex-col lg:flex md:flex-row w-full  justify-center gap-1 p-1 '>
 

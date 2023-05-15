@@ -14,7 +14,6 @@ const roboto = Poppins({
 
 export default function MenuBar() {
 const [toggle, setToggle] = useState(false)
-
  const setToggleHandler =()=>{
   setToggle(true)
  }
@@ -30,7 +29,7 @@ const [toggle, setToggle] = useState(false)
 
             <div id='social' className='flex items-center'>
               <ul className='flex gap-4 m-2 text-white'>
-              <li className='menubar '>Home</li>
+              <li className="menubar">Home</li>
               <a href='#about'><li className='menubar'>About</li></a>
               <a href='#service'><li className='menubar'>Services</li></a>
               <a href='#Portfolio'><li className='menubar'>Portfolio</li></a>

@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <>
+    <div className='snap-y snap-mandatory '>
       <main className='relative h-[200vh] '>
       <MenuBar/>
 
@@ -23,7 +23,7 @@ export default function Home() {
       <Services/>
       <Portfolio/>
     </section>
-    </>
+    </div>
  
 
   )

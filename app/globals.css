@@ -51,6 +51,11 @@ body {
   overflow-x: hidden;
 }
 
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
 @layer components{
 
   .hero{
@@ -59,7 +64,7 @@ body {
     background-position: center;
   }
   .menubar{
-    @apply text-[#2B2620] text-sm cursor-pointer font-semibold hover:text-[#F49F37]
+    @apply text-[#2B2620] text-sm cursor-pointer font-semibold hover:text-[#F49F37] 
 }
 
 }
